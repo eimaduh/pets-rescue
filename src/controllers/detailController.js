@@ -1,11 +1,14 @@
 const path = require('path');
 const getInfoDatabase = require("../utils/getInfoDatabase");
-const animals = getInfoDatabase('animals');
 
 
 const detailController = {
     getDetailPage : (req, res) => {
-        res.render('detail', { animals }) ;
+        const animals = getInfoDatabase('animals')
+        const id = req.params.id
+        const detail = animals.find(animal => animal.id === Number(id))
+
+        res.render('detail', { detail }) ;
     }
 
 }

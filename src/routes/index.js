@@ -12,7 +12,7 @@ routes.get('/login', loginRouter);
 routes.get('/regiter', loginRouter)
 routes.get('/home', homeRouter);
 routes.get('/pets', petsRouter);
-routes.get('/detail', detailRouter);
+routes.get('/detail/:id', detailRouter);
 routes.get('/formulario', formAdoptionRouter);
 routes.get('/formulario/analise', formAdoptionRouter);
 
