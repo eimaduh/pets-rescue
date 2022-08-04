@@ -1,0 +1,122 @@
+[
+  {
+   "id": 1,
+   "name": "Juninho do Morro",
+   "type": "dog",
+   "breed": "SRD Caramelho"
+  },
+  {
+    "id": 2,
+    "name": "Duque",
+    "type": "dog",
+    "breed": "SRD"
+   },
+   {
+    "id": 3,
+    "name": "Ralph",
+    "type": "dog",
+    "breed": "Rottweiler"
+   },
+   {
+    "id": 4,
+    "name": "Neve",
+    "type": "cat",
+    "breed": "SRD"
+   },
+   {
+    "id": 5,
+    "name": "Titan",
+    "type": "dog",
+    "breed": "Rottweiler"
+   },
+   {
+    "id": 6,
+    "name": "Sirius",
+    "type": "cat",
+    "breed": "Norueguês da Floresta"
+   },
+   {
+    "id": 7,
+    "name": "Luke",
+    "type": "dog",
+    "breed": "Pincher"
+   },
+   {
+     "id": 8,
+     "name": "Lolla",
+     "type": "cat",
+     "breed": "SDR"
+    },
+    {
+     "id": 9,
+     "name": "Venus",
+     "type": "dog",
+     "breed": "Beagle"
+    },
+    {
+     "id": 10,
+     "name": "Jujuba",
+     "type": "cat",
+     "breed": "SRD"
+    },
+    {
+     "id": 11,
+     "name": "Doddge",
+     "type": "dog",
+     "breed": "PitBull"
+    },
+    {
+     "id": 12,
+     "name": "Lilly",
+     "type": "cat",
+     "breed": "Siamês"
+    },
+    {
+      "id": 13,
+      "name": "Bob",
+      "type": "dog",
+      "breed": "Pincher"
+     },
+     {
+       "id": 14,
+       "name": "Baguera",
+       "type": "cat",
+       "breed": "SRD"
+      },
+      {
+       "id": 15,
+       "name": "Savanna",
+       "type": "dog",
+       "breed": "PitBull"
+      },
+      {
+       "id": 16,
+       "name": "Nina",
+       "type": "cat",
+       "breed": "Angorá"
+      },
+      {
+       "id": 17,
+       "name": "Loki",
+       "type": "dog",
+       "breed": "SDR"
+      },
+      {
+       "id": 18,
+       "name": "Suga",
+       "type": "cat",
+       "breed": "SDR"
+       },
+       {
+        "id": 19,
+        "name": "Taurus",
+        "type": "dog",
+        "breed": "Bulldog"
+       },
+       {
+        "id": 20,
+        "name": "Baby",
+        "type": "cat",
+        "breed": "SDR"
+        }
+ ]

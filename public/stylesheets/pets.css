@@ -1,0 +1,75 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color:rgb(2, 49, 87);
+}
+
+h1 {
+    margin: 30px 0px 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-pets {
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.descricao-pets {
+    width: 20%;
+    margin: 15px;
+    padding: 5px;
+    background-color: #FFF;
+    /* box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.12); */
+    line-height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao-pets img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+
+
+.descricao-pets a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 1px 15px;
+    border-radius: 5px;
+    background:rgb(2, 49, 87);
+    color: #FFF;
+}
+
+
+@media (max-width:600px) {
+    .descricao-pets{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+}

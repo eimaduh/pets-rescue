@@ -1,0 +1,44 @@
+[
+ {
+  "id": 1,
+  "name": "Cassio Oliveira Silva",
+  "username": "cassiosilva",
+  "password": "$2b$08$2CuUOlSrmF.Aqx8macO0c.ETvsSM0Th3GyEU4YZe6Pq0e92ErHG.W"
+ },
+ {
+  "id": 2,
+  "name": "Jessica Castro",
+  "username": "jessicacastro",
+  "password": "$2b$08$2CuUOlSrmF.Aqx8macO0c.ETvsSM0Th3GyEU4YZe6Pq0e92ErHG.W"
+ },
+ {
+  "id": "8f13f5da-6baa-4ae8-b71d-142d0b3d7c81",
+  "name": "Maria Eduarda",
+  "username": "maduh",
+  "password": "$2b$10$quu4le44HLezynD.4FkU.OdXT/hJiYa5cBIC4TTvRt/5g04n.7VoW"
+ },
+ {
+  "id": "f178aa4a-4b87-4cbd-9a72-6a4eed009208",
+  "name": "Lucas Alves",
+  "username": "luquinhas",
+  "password": "$2b$10$/crs/K3bcuO357c96AsGcubwNHWhNiBJ7Z8/TW5pM2d22X9fUva/G"
+ },
+ {
+  "id": "56f98522-405a-425b-8533-a7f319aa3b7c",
+  "name": "Bruna Almeida",
+  "username": "brubs",
+  "password": "$2b$10$ThClHx0.pKvcIhQPINJ/OunnDGzSBYov8Bqd4Mw77SUEv0BGhmk/S"
+ },
+ {
+  "id": "b4b4e99b-a39b-427c-81ad-ac5a02473138",
+  "name": "Luisa Andrade",
+  "username": "luisaandrade",
+  "password": "$2b$10$eYmCW87Fkxgb6h0dBVkOZ.6xVUXHv3GbtwV1HnTRZErYA0iTuqYee"
+ },
+ {
+  "id": "4e6d6849-6e13-4e2d-913c-321c6f8ac248",
+  "name": "Lynd ",
+  "username": "lynd",
+  "password": "$2b$10$1z9LcY3BROZpqyi2WK7JXu9igYHUK5TEkBOyt/7CNohlsv9r.um0q"
+ }
+]

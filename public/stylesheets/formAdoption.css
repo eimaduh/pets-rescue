@@ -1,0 +1,81 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(2, 49, 87);
+}
+
+h1 {
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-adoption {
+    background-color: #fff;
+    width: 30%;
+    height: 480px;
+    margin: auto;
+    border-style:groove;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-name input {
+    width: 90%;
+    height: 25px;
+}
+
+.form-adoption{
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-date {
+    margin-top: 5px;
+}
+
+.input-check {
+    margin: 10px 0px;
+}
+
+.espacamento {
+    padding: 0px 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.button-envio {
+    display: flex;
+    justify-content: center;
+}
+
+.button-envio button {
+    background-color: rgb(2, 49, 87);
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+.border input {
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+}
+
+
+
+footer {
+    color: #fff;
+    margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head', { page: 'pets', pageName: 'Pets' }) %>
+  <body>
+    <header>
+      <div class="container">
+        <img src="/images/dog.png" alt="Logo">
+    
+        <nav>
+          <ul>
+            <li>
+              <a href="/home">Home</a>
+            </li>
+            <li>
+              <a href="/pets">Ver todos os pets</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h1>Conheça nossos Pets!</h1>
+
+    <main>
+      <div class="container-pets">
+
+          <% for(let animal of animals) { %>
+             
+            <div class="descricao-pets">
+              <img src="/images/pets2.jpg" alt="img">
+              <h4> <%= animal.name %> </h4>
+              <p> <%= animal.type %> </p>
+              <p> <%= animal.breed %> </p>
+              <a href="/detail">Me Adota?</a>
+            </div> 
+
+         <% } %>     
+        
+      </div>
+
+
+
+    </main>
+    
+    <footer>
+      <p>Todos os direitos reservados &copy; 2022 - Maria Eduarda Silva</p>
+    </footer>
+
+  </body>
+</html>
