@@ -1,0 +1,23 @@
+[
+ {
+  "name": "Maria Eduarda Silva",
+  "birthday": "2003-03-14",
+  "residence": "casa",
+  "availability": 8,
+  "motivation": "Eu quero adotar um pet para me fazer companhia e ser meu amigo!"
+ },
+ {
+  "name": "Bruna Medeiros Ferreira",
+  "birthday": "2001-05-03",
+  "residence": "apartamento",
+  "availability": 8,
+  "motivation": "quero muito um amiguinho para animar minha casa!"
+ },
+ {
+  "name": "Juliana Alves Tavares",
+  "birthday": "1997-09-12",
+  "residence": "casa",
+  "availability": 12,
+  "motivation": "Eu amo animais e quero muito adotar uma gatinha!"
+ }
+]

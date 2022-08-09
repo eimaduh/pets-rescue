@@ -14,6 +14,7 @@ routes.get('/home', homeRouter);
 routes.get('/pets', petsRouter);
 routes.get('/detail/:id', detailRouter);
 routes.get('/formulario', formAdoptionRouter);
+routes.post('/formulario', formAdoptionRouter)
 routes.get('/formulario/analise', formAdoptionRouter);
 
 
