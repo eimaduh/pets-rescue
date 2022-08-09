@@ -15,11 +15,12 @@ h1 {
 }
 
 .container-adoption {
-    background-color: #fff;
+    background-color: transparent;
+    box-shadow: 1px 1px 8px 4px rgb(238, 230, 230);
+    color: #fff;
     width: 30%;
     height: 480px;
     margin: auto;
-    border-style:groove;
     border-radius: 10px;
     margin-top: 20px;
     display: flex;
@@ -43,11 +44,7 @@ h1 {
 }
 
 .input-check {
-    margin: 10px 0px;
-}
-
-.espacamento {
-    padding: 0px 5px;
+    margin: 12px 0px;
 }
 
 .row {
@@ -60,8 +57,8 @@ h1 {
 }
 
 .button-envio button {
-    background-color: rgb(2, 49, 87);
-    color: #fff;
+    background-color: rgb(238, 230, 230);
+    color: black;
     margin-top: 15px;
     padding: 10px 25px;
     border-radius: 10px;

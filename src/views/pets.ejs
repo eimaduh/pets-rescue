@@ -27,9 +27,8 @@
           <% for(let animal of animals) { %>
              
             <div class="descricao-pets">
-              <img src="/images/pets2.jpg" alt="img">
+              <img src="/img-pets/<%= animal.image %>" alt="img">
               <h4> <%= animal.name %> </h4>
-              <p> <%= animal.type %> </p>
               <p> <%= animal.breed %> </p>
               <a href="/detail/<%= animal.id %>">Me Adota?</a>
             </div> 

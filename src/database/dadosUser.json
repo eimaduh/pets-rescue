@@ -19,5 +19,12 @@
   "residence": "casa",
   "availability": 12,
   "motivation": "Eu amo animais e quero muito adotar uma gatinha!"
+ },
+ {
+  "name": "Anna Clara Alvez",
+  "birthday": "1990-02-12",
+  "residence": "casa",
+  "availability": 12,
+  "motivation": "sempre quis ter um gatinho filhote!"
  }
 ]

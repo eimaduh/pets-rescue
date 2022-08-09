@@ -31,8 +31,9 @@ h1 {
     width: 20%;
     margin: 15px;
     padding: 5px;
-    background-color: #FFF;
-    /* box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.12); */
+    background-color: transparent;
+    color: #FFF;
+    box-shadow: 1px 1px 8px 4px rgb(238, 230, 230);
     line-height: 30px;
     border-radius: 10px;
     display: flex;
@@ -41,7 +42,7 @@ h1 {
 }
 
 .descricao-pets img {
-    width: 60%;
+    width: 70%;
     border-radius: 10px;
 }
 
@@ -52,8 +53,8 @@ h1 {
     margin: 5px;
     padding: 1px 15px;
     border-radius: 5px;
-    background:rgb(2, 49, 87);
-    color: #FFF;
+    background: #FFF;
+    color: black;
 }
 
 

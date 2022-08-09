@@ -1,122 +1,142 @@
 [
   {
    "id": 1,
-   "name": "Juninho",
+   "name": "Juninho Caramelo",
    "type": "dog",
-   "breed": "SRD Caramelho"
+   "breed": "SRD Caramelho",
+   "image": "juninho_caramelo.jpg"
   },
   {
     "id": 2,
     "name": "Duque",
     "type": "dog",
-    "breed": "SRD"
+    "breed": "SRD",
+    "image": "duque.jpg"
    },
    {
     "id": 3,
     "name": "Ralph",
     "type": "dog",
-    "breed": "Rottweiler"
+    "breed": "Rottweiler",
+    "image": "ralph.jpg"
    },
    {
     "id": 4,
     "name": "Neve",
     "type": "cat",
-    "breed": "SRD"
+    "breed": "SRD",
+    "image": "neve.jpg"
    },
    {
     "id": 5,
     "name": "Titan",
     "type": "dog",
-    "breed": "Rottweiler"
+    "breed": "Rottweiler",
+    "image": "titan.jpg"
    },
    {
     "id": 6,
-    "name": "Sirius",
+    "name": "Sirus",
     "type": "cat",
-    "breed": "Norueguês da Floresta"
+    "breed": "Norueguês da Floresta",
+    "image": "sirus.jpg"
    },
    {
     "id": 7,
     "name": "Luke",
     "type": "dog",
-    "breed": "Pincher"
+    "breed": "Pincher",
+    "image": "luke.jpg"
    },
    {
      "id": 8,
      "name": "Lolla",
      "type": "cat",
-     "breed": "SDR"
+     "breed": "SDR",
+     "image": "lolla.jpg"
     },
     {
      "id": 9,
      "name": "Venus",
      "type": "dog",
-     "breed": "Beagle"
+     "breed": "Beagle",
+     "image": "venus.jpg"
     },
     {
      "id": 10,
      "name": "Jujuba",
      "type": "cat",
-     "breed": "SRD"
+     "breed": "SRD",
+     "image": "jujuba.jpg"
     },
     {
      "id": 11,
      "name": "Doddge",
      "type": "dog",
-     "breed": "PitBull"
+     "breed": "PitBull",
+     "image": "doddge.jpg"
     },
     {
      "id": 12,
      "name": "Lilly",
      "type": "cat",
-     "breed": "Siamês"
+     "breed": "Siamês",
+     "image": "lilly.jpg"
     },
     {
       "id": 13,
       "name": "Bob",
       "type": "dog",
-      "breed": "Pincher"
+      "breed": "Pincher",
+      "image": "bob.jpg"
      },
      {
        "id": 14,
        "name": "Baguera",
        "type": "cat",
-       "breed": "SRD"
+       "breed": "SRD",
+       "image": "baguera.jpg"
       },
       {
        "id": 15,
        "name": "Savanna",
        "type": "dog",
-       "breed": "PitBull"
+       "breed": "PitBull",
+       "image": "savanna.jpg"
       },
       {
        "id": 16,
        "name": "Nina",
        "type": "cat",
-       "breed": "Angorá"
+       "breed": "Angorá",
+       "image": "nina.jpg"
       },
       {
        "id": 17,
        "name": "Loki",
        "type": "dog",
-       "breed": "SDR"
+       "breed": "SDR",
+       "image": "loki.jpg"
       },
       {
        "id": 18,
        "name": "Suga",
        "type": "cat",
-       "breed": "SDR"
+       "breed": "SDR",
+       "image": "suga.jpg"
        },
        {
         "id": 19,
         "name": "Taurus",
         "type": "dog",
-        "breed": "Bulldog"
+        "breed": "Bulldog",
+        "image": "taurus.jpg"
        },
        {
         "id": 20,
         "name": "Baby",
         "type": "cat",
-        "breed": "SDR"
+        "breed": "SDR",
+        "image": "baby.jpg"
         }
  ]

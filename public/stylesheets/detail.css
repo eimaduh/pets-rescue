@@ -14,7 +14,8 @@ body {
 .pets-container {
     width: 50%;
     height: 350px;
-    background-color: #fff;
+    background-color: transparent;
+    box-shadow: 1px 1px 8px 4px rgb(238, 230, 230);
     border-radius: 10px;
     margin: auto;
     margin-top: 90px;
@@ -31,7 +32,7 @@ body {
 }
 
 .description-pets {
-    color: black;
+    color: #FFF;
     display: flex;
     padding: 10px;
 }
@@ -46,10 +47,10 @@ body {
 }
 
 .center a {
-    background-color: #116CF4;
-    padding: 5px 20px;
+    background-color: rgb(238, 230, 230);
+    padding: 10px 20px;
     border-radius: 5px;
-    color: #fff;
+    color: black;
     margin-top: 30px;
 }
 
