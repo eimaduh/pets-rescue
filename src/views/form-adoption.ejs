@@ -15,14 +15,14 @@
 
             <form action="/formulario" method="POST">
 
-            <div class="input-name border">
+            <div class="input-name">
 
                 <label for="name">Seu nome completo:</label><br>
                 <input type="text" name="name" placeholder="Nome completo" required ><br>
 
             </div>
 
-            <div class="input-date border">
+            <div class="input-date">
                 <label for="birthday">Quantos anos você tem?</label><br>
                 <input type="date" name="birthday" required ><br>
             </div>
@@ -53,9 +53,10 @@
             </div>
 
 
-            <div class="border">
-                <label for="motivation">Sua mensagem:</label><br>
-                <textarea name="motivation" placeholder="Nos conte sua motivação para adotar um de nossos pets"
+            <div>
+                <label for="motivation">Porque você quer me adotar?</label><br>
+                <textarea class="motivation-input" name="motivation" 
+                placeholder="Máximo de 500 caracteres"
                 cols="35" rows="8"></textarea><br>
             </div>
 
