@@ -5,6 +5,8 @@ const fs = require('fs') ;
 const path = require('path');
 const pathUsersJSON = path.join(__dirname,"..","database","users.json");
 
+const database = require('../database/models')
+
 const loginController = {
   getLoginPage: (req, res) => {
     const user = req.user;
@@ -48,29 +50,26 @@ const loginController = {
       return res.render('register')
   },
 
-  postRegister: (req,res) => {
-    const usersDB = getInfoDatabase('users')
-      const { name, username, password } = req.body;
-      const newId = v4();
-  
-      const hashedPassword = bcrypt.hashSync(password, 10);
-  
-      const newUser = {
-        id: newId,
-        name,
-        username,
-        password: hashedPassword
-      }
-  
-      usersDB.push(newUser)
-  
-      const usersJSON = JSON.stringify(usersDB, null, " ");
-  
-      fs.writeFileSync(pathUsersJSON, usersJSON);
-  
-      res.redirect('/login')
-    
-  }
+  postRegister: (req, res) => {
+        const {
+         name,
+         username,
+         password,
+        } = req.body;
+
+        const passwordHash = bcrypt.hashSync(password, 10);
+      
+        database.User.create({
+         name,
+         username,
+         password: passwordHash,
+        })
+         .then(() => {
+          return res.redirect('/login');
+         })
+         .catch(error => res.send(error))
+       }
+
 }
 
 module.exports = loginController

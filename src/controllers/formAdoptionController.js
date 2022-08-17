@@ -3,6 +3,8 @@ const fs = require('fs') ;
 const path = require('path');
 const pathInfosJSON = path.join(__dirname, ".." , "database" , "dadosUser.json");
 
+const database = require('../database/models')
+
 const formAdoptionController = {
     getAdoptionPage: (req, res) => {
       return res.render('form-adoption')

@@ -1,9 +1,11 @@
-const getInfoDatabase = require("../utils/getInfoDatabase")
-const animals = getInfoDatabase('animals')
+const database = require('../database/models')
 
 const petsController = {
   getPetsPage: (req, res) => {
-    return res.render('pets', { animals })
+    database.Pet.findAll()
+    .then(animals => {
+      return res.render('pets', { animals })
+    })
   }
 }
 

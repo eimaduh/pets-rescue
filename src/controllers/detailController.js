@@ -1,6 +1,8 @@
 const path = require('path');
 const getInfoDatabase = require("../utils/getInfoDatabase");
 
+const database = require('../database/models')
+
 
 const detailController = {
     getDetailPage : (req, res) => {
