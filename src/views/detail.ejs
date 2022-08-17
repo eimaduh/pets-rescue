@@ -4,15 +4,20 @@
 <body>
     <%- include('./partials/header') %>
 
+
         <div class="pets-container">
             
-            <div class="description-pets">
+            <div class="arrow" >
+                <a href="/pets">
+                    <img src="/images/arrow-white.png" alt="">
+                </a>
                 <img src="/img-pets/<%= detail.image %>" alt="IMAGEM DO PET!">
             </div>
 
             <div class="description-pets">
                <div>
-                 <h1> Olá eu me chamo <%= detail.name %> </h1> 
+                 <h1> <%= detail.name %> </h1> 
+                
                 <p>
                     Eu sou uma animal de resgaste e estou a procura de 
                     uma lar e donos que me amem e cuidem de mim!
@@ -21,6 +26,7 @@
                     um ótimo time, o que você acha?<br>
                     <3
                 </p>
+                
                      
 
                 <div class="center">

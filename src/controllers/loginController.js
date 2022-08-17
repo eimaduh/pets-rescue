@@ -12,7 +12,7 @@ const loginController = {
     const user = req.user;
 
     if (user) {
-      return res.redirect('/home');
+      return res.redirect('/pets');
     }
 
     return res.render('login', { error: ''})
@@ -27,20 +27,20 @@ const loginController = {
   
     if (!user) {
       return res.render('login', {
-        error: 'Nome ou senha incorreto.'
+        error: 'Username or password incorrect.'
       })
     }
 
     if (!bcrypt.compareSync(password, user.password)) {
       return res.render('login', {
-        error: 'Nome ou senha incorreto.'
+        error: 'Username or password incorrect.'
       })
     }
 
     req.session.username = user.username;
     
     if (hasToRemember) {
-      res.cookie('user', user.username, { maxAge: 86400000 });
+      res.cookie('user', user.username, { maxAge: 5000 });
     }
     
     res.redirect('/home')
