@@ -50,24 +50,23 @@ const loginController = {
       return res.render('register')
   },
 
-  postRegister: (req, res) => {
+  create: (req, res) => {
         const {
          name,
          username,
-         password,
+         password
         } = req.body;
 
         const passwordHash = bcrypt.hashSync(password, 10);
       
-        database.User.create({
+        database.Users.create({
          name,
          username,
-         password: passwordHash,
+         password: passwordHash
         })
-         .then(() => {
-          return res.redirect('/login');
-         })
-         .catch(error => res.send(error))
+
+        return res.redirect('/login');
+        
        }
 
 }

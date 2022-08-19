@@ -10,6 +10,7 @@ const routes = express.Router();
 routes.use('/', loginRouter);
 routes.get('/login', loginRouter);
 routes.get('/regiter', loginRouter)
+routes.post('/regiter', loginRouter);
 routes.get('/home', homeRouter);
 routes.get('/pets', petsRouter);
 routes.get('/detail/:id', detailRouter);

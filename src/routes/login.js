@@ -11,6 +11,6 @@ loginRouter.post('/login', loginController.postLogin);
 
 loginRouter.get('/register', loginController.getRegisterPage)
 
-loginRouter.post('/register', loginController.postRegister);
+loginRouter.post('/register', loginController.create);
 
 module.exports = loginRouter;
