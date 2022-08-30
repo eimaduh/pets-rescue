@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const alias = "Users";
+    const alias = "User";
   
     const columns = {
       id: {
@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING(100),
         allowNull: false,
       },
-      email: {
+      username: {
         type: DataTypes.STRING(100),
         allowNull: false
       },

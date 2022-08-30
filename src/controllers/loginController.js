@@ -59,7 +59,7 @@ const loginController = {
 
         const passwordHash = bcrypt.hashSync(password, 10);
       
-        database.Users.create({
+        database.User.create({
          name,
          username,
          password: passwordHash
