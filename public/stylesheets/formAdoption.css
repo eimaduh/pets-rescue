@@ -82,10 +82,15 @@ input::placeholder {
 .button-envio button {
     background-color: rgb(238, 230, 230);
     color: black;
+    font-size: 12px;
     margin-top: 15px;
     padding: 10px 25px;
     border-radius: 10px;
     border: none;
+}
+
+.button-envio button:hover {
+    text-transform: uppercase;
 }
 
 footer {

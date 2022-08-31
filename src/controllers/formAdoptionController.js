@@ -4,30 +4,8 @@ const formAdoptionController = {
     getAdoptionPage: (req, res) => {
       return res.render('form-adoption')
     },
-  
-    // postAnalisePage: (req, res) => {
-    //   const infosDB = getInfoDatabase('dadosUser')
-    //   const {name, birthday, residence, availability, motivation} = req.body
 
-    //   const infosUser = {
-    //     name, 
-    //     birthday, 
-    //     residence, 
-    //     availability : Number(availability), 
-    //     motivation
-    //   }
-
-    //   infosDB.push(infosUser)
-  
-    //   const usersJSON = JSON.stringify(infosDB, null, " ");
-  
-    //   fs.writeFileSync(pathInfosJSON, usersJSON);
-  
-    //   res.redirect('/formulario/analise')
-      
-    // }
-
-    postAnalisePage : (req, res) => {
+    create : (req, res) => {
       const {
           name, 
           birthday, 
@@ -40,7 +18,7 @@ const formAdoptionController = {
           name, 
           birthday, 
           residence, 
-          availability, 
+          availability: Number(availability), 
           motivation
        })
 

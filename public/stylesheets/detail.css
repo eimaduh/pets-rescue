@@ -72,6 +72,10 @@ body {
     margin-top: 30px;
 }
 
+.center a:hover {
+    text-transform: uppercase;
+}
+
 footer{
     margin-top: 65px;
     color: #fff; ;

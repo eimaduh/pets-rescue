@@ -1,8 +1,7 @@
 const express = require('express')
 const homeRouter = express.Router();
 const homeController = require('../controllers/homeController');
-const checkCookies = require('../middlewares/checkCookies');
 
-homeRouter.get('/home', checkCookies, homeController.getHomePage);
+homeRouter.get('/home', homeController.getHomePage);
 
 module.exports = homeRouter;

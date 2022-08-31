@@ -1,11 +1,10 @@
 const express = require('express')
 const formAdoptionRouter = express.Router();
 const formAdoptionController = require('../controllers/formAdoptionController');
-const checkCookies = require('../middlewares/checkCookies');
 
-formAdoptionRouter.get('/formulario', checkCookies, formAdoptionController.getAdoptionPage);
-formAdoptionRouter.get('/formulario/analise', checkCookies, formAdoptionController.getAnalisePage);
+formAdoptionRouter.get('/formulario', formAdoptionController.getAdoptionPage);
+formAdoptionRouter.get('/formulario/analise', formAdoptionController.getAnalisePage);
 
-formAdoptionRouter.post('/formulario', checkCookies, formAdoptionController.postAnalisePage);
+formAdoptionRouter.post('/formulario', formAdoptionController.create);
 
 module.exports = formAdoptionRouter;

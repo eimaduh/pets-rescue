@@ -1,8 +1,7 @@
 const express = require('express')
 const petsRouter = express.Router();
 const petsController = require('../controllers/petsController');
-const checkCookies = require('../middlewares/checkCookies');
 
-petsRouter.get('/pets', checkCookies, petsController.getPetsPage);
+petsRouter.get('/pets', petsController.getPetsPage);
 
 module.exports = petsRouter;

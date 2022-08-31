@@ -29,6 +29,7 @@ h1 {
 
 .descricao-pets {
     width: 20%;
+    height: 280px;
     margin: 15px;
     padding: 5px;
     background-color: transparent;
@@ -39,14 +40,19 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.descricao-pets:hover {
+    width: 21%;
+    height: 281px;
+    background: rgb(2, 15, 75);
 }
 
 .descricao-pets img {
     width: 70%;
     border-radius: 10px;
 }
-
-
 
 .descricao-pets a {
     text-decoration: none;
