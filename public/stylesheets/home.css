@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(2, 49, 87);
+  background: linear-gradient(180deg, rgb(56, 1, 56), rgb(12, 7, 12) );
   color: #FFF;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 
@@ -21,6 +21,10 @@ h1 {
   font-size: 40px;
   font-weight: 300;
   margin-bottom: 30px;
+}
+
+p {
+  font-size: 17px;
 }
 
 section {
@@ -45,10 +49,6 @@ section article img {
   margin-top: 50px;
   border-radius: 5px;
   max-width: 500px;
-}
-
-section article.we-are {
-  font-weight: 300;
 }
 
 section.where-find-us {

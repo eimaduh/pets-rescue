@@ -1,7 +1,7 @@
 header {
   width: 100%;
   /* background: linear-gradient(180deg, #58EBB6 -40%, #116CF4 164.6%); */
-  background: linear-gradient( rgb(7, 147, 202), rgb(2, 49, 87));
+  background: linear-gradient(180deg, rgb(56, 1, 56), rgb(12, 7, 12) );
   padding: 30px 50px 0 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }

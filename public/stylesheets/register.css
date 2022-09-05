@@ -2,7 +2,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient( rgb(7, 147, 202), rgb(2, 49, 87));
+  background: linear-gradient(180deg, rgb(56, 1, 56), rgb(12, 7, 12) );
     width: 100vw;
     height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
