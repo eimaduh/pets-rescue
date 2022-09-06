@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, rgb(56, 1, 56), rgb(12, 7, 12) );
+    background: linear-gradient(to bottom right, rgba(56, 1, 56), rgb(12, 7, 12) );
 }
 
 .block {
@@ -15,7 +15,7 @@ body {
     width: 50%;
     height: 350px;
     background-color: transparent;
-    box-shadow: 1px 1px 8px 4px rgb(238, 230, 230);
+    box-shadow: 2px 2px rgb(238, 230, 230);
     border-radius: 10px;
     margin: auto;
     margin-top: 90px;
@@ -73,7 +73,7 @@ body {
 }
 
 .center a:hover {
-    text-transform: uppercase;
+    background: rgb(205, 236, 155);
 }
 
 footer{
