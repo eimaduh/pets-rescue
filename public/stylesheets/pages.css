@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+:root {
+  --background : #09090A;
+  --backgroung-claro : #202024;
+  --fonte-clara : #E1E1E6;
+  --fonte-media: #C4C4CC;
+  --fonte-escura : #7C7C8A;
+  --ciano : #81D8F7;
+}
+
 * {
   margin: 0;
   padding: 0;

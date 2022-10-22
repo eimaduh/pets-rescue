@@ -4,11 +4,11 @@
 }
 
 body {
-  background: linear-gradient(180deg, rgb(56, 1, 56), rgb(12, 7, 12) );
+  background: var(--background);
 }
 
 h1 {
-    color: #fff;
+    color: var(--fonte-clara);
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -16,31 +16,30 @@ h1 {
 
 input {
     background-color: transparent;
-    border: 1px solid rgb(238, 230, 230);
-    border-radius: 5px;
-    color: #fff;
+    border: 1px solid var(--fonte-media);
+    border-radius: 3px;
+    color: #FFFFFF;
 }
 
 .motivation-input {
-    background-color: transparent;
-    border: 1px solid rgb(238, 230, 230);
+    /*background-color: transparent;*/
+    border-style: none;
     border-radius: 5px;
-    color: #fff; 
 }
 
 .motivation-input::placeholder {
-    color: #fff;
+    color: #000000;
 }
 
 input::placeholder {
-    color: #fff;
+    color: #FFFFFF;
 
 }
 
 .container-adoption {
     background-color: transparent;
-    box-shadow: 1px 1px 2px 2px rgb(238, 230, 230);
-    color: #fff;
+    box-shadow: 1px 1px 2px 2px var(--fonte-media);
+    color: var(--fonte-clara);
     width: 30%;
     height: 480px;
     margin: auto;
@@ -80,8 +79,8 @@ input::placeholder {
 }
 
 .button-envio button {
-    background-color: rgb(238, 230, 230);
-    color: black;
+    background-color: var(--ciano);
+    color: #000000;
     font-size: 12px;
     margin-top: 15px;
     padding: 10px 25px;
@@ -89,11 +88,7 @@ input::placeholder {
     border: none;
 }
 
-.button-envio button:hover {
-    text-transform: uppercase;
-}
-
 footer {
-    color: #fff;
+    color: var(--fonte-escura);
     margin-top: 10px;
 }

@@ -1,7 +1,7 @@
 header {
   width: 100%;
   /* background: linear-gradient(180deg, #58EBB6 -40%, #116CF4 164.6%); */
-  background: linear-gradient(to bottom right, rgba(56, 1, 56), rgb(12, 7, 12) );
+  background: var(--background);
   padding: 30px 50px 0 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
@@ -14,8 +14,7 @@ header {
 }
 
 .container nav a:hover {
-  font-size: 16px;
-  color: rgb(182, 185, 178);
+  color: var(--ciano)
 }
 
 header img {

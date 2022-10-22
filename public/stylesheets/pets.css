@@ -6,12 +6,12 @@
 }
 
 body {
-  background: linear-gradient(180deg, rgb(56, 1, 56), rgb(12, 7, 12) );
+  background: var(--background);
 }
 
 h1 {
     margin: 30px 0px 20px;
-    color: white;
+    color: var(--fonte-clara);
     display: flex;
     justify-content: center;
 }
@@ -34,7 +34,7 @@ h1 {
     padding: 5px;
     background-color: transparent;
     color: #FFF;
-    box-shadow: 2px 2px rgb(238, 230, 230);
+    box-shadow: 2px 2px var(--fonte-media);
     line-height: 30px;
     border-radius: 10px;
     display: flex;
@@ -53,12 +53,11 @@ h1 {
     margin: 5px;
     padding: 1px 15px;
     border-radius: 5px;
-    background: #FFF;
+    background: var(--ciano);
     color: black;
 }
 
 .descricao-pets a:hover {
-    background: rgb(231, 220, 220);
     padding: 2px 17px;
 }
 

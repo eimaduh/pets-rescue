@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom right, rgba(56, 1, 56), rgb(12, 7, 12) );
+    background: var(--background);
 }
 
 .block {
@@ -15,7 +15,7 @@ body {
     width: 50%;
     height: 350px;
     background-color: transparent;
-    box-shadow: 2px 2px rgb(238, 230, 230);
+    box-shadow: 2px 2px var(--fonte-media);
     border-radius: 10px;
     margin: auto;
     margin-top: 90px;
@@ -49,7 +49,7 @@ body {
 }
 
 .description-pets {
-    color: #FFF;
+    color: var(--fonte-clara);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -57,6 +57,7 @@ body {
 
 .description-pets h1 {
     margin-bottom: 15px;
+    color: var(--fonte-clara);
 }
 
 .center {
@@ -65,18 +66,14 @@ body {
 }
 
 .center a {
-    background-color: rgb(238, 230, 230);
+    background-color: var(--ciano);
     padding: 10px 20px;
     border-radius: 5px;
     color: black;
     margin-top: 30px;
 }
 
-.center a:hover {
-    background: rgb(205, 236, 155);
-}
-
 footer{
     margin-top: 65px;
-    color: #fff; ;
+    color: var(--fonte-escura); ;
 }

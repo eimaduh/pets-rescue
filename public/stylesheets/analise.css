@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, rgb(56, 1, 56), rgb(12, 7, 12) );
+    background: var(--background);
 }
 
 .analise-container {
@@ -17,9 +17,10 @@ body {
 .analise-final {
     width: 40%;
     height: 350px;
-    background: white;
+    background: var(--background-claro);
     padding: 25px;
     border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px var(--fonte-media);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,15 +39,17 @@ h2 {
     margin: 10px 0px;
     display: flex;
     justify-content: center;
+    color: var(--fonte-clara);
 }
 
 p {
     line-height: 20px;
     font-style: oblique;
     font-size: 15px;
+    color: var(--fonte-media);
 }
 
 footer {
     margin-top: 70px;
-    color: #fff;
+    color: var(--fonte-escura);
 }
