@@ -8,24 +8,24 @@ module.exports = (sequelize, DataTypes) => {
         primaryKey: true,
         autoIncrement: true
       },
-      name: {
-        type: DataTypes.STRING(100),
+      nome: {
+        type: DataTypes.STRING(50),
         allowNull: false,
       },
-      birthday: {
-        type: DataTypes.DATE,
-        allowNull: false
+      sobrenome: {
+        type: DataTypes.STRING(50),
+        allowNull: false,
       },
-      recidence: {
-        type: DataTypes.STRING(11),
-        allowNull: false
-      },
-      availability: {
+      idade: {
         type: DataTypes.INTEGER,
         allowNull: false
       },
-      motivation: {
-        type: DataTypes.STRING(500),
+      tempoDisponivel: {
+        type: DataTypes.INTEGER,
+        allowNull: false
+      },
+      telefone: {
+        type: DataTypes.STRING(11),
         allowNull: false
       }
     };

@@ -5,7 +5,7 @@ const formAdoptionController = {
       return res.render('form-adoption')
     },
 
-    create : (req, res) => {
+    create: (req, res) => {
       const {
           name, 
           birthday, 
@@ -18,7 +18,7 @@ const formAdoptionController = {
           name, 
           birthday, 
           residence, 
-          availability: Number(availability), 
+          availability, 
           motivation
        })
 
