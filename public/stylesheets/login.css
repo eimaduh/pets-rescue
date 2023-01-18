@@ -80,7 +80,8 @@ main form button {
   border: 0;
   border-radius: 15px;
   color: #FFF;
-  background: var(--ciano);
+  background: var(--fonte-clara);
+  color: var(--background-claro);
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;

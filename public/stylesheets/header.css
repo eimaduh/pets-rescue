@@ -1,26 +1,23 @@
 header {
-  width: 100%;
-  /* background: linear-gradient(180deg, #58EBB6 -40%, #116CF4 164.6%); */
   background: var(--background);
-  padding: 30px 50px 0 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 
 .container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .container nav a:hover {
-  color: var(--ciano)
+  color: var(--background-claro)
 }
 
 header img {
-  max-width: 70px;
-  height: 70px;
-  width: 100%;
+  width: 10%;
+
 }
 
 header nav ul {

@@ -66,14 +66,9 @@ body {
 }
 
 .center a {
-    background-color: var(--ciano);
+    background-color: var(--fonte-media);
     padding: 10px 20px;
     border-radius: 5px;
     color: black;
     margin-top: 30px;
-}
-
-footer{
-    margin-top: 65px;
-    color: var(--fonte-escura); ;
 }

@@ -7,7 +7,7 @@ body {
 
 
 main {
-  margin-top: 40px;
+  margin-top: 10px;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -49,15 +49,8 @@ section article img {
   margin-top: 50px;
   border-radius: 5px;
   max-width: 500px;
-  box-shadow: 2px 2px var(--fonte-media);
 }
 
 section.where-find-us {
   margin-top: 60px;
-}
-
-footer{
-  display: flex;
-  justify-content: center;
-  margin-top: 400px;
 }

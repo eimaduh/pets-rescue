@@ -79,16 +79,11 @@ input::placeholder {
 }
 
 .button-envio button {
-    background-color: var(--ciano);
+    background-color: var(--fonte-media);
     color: #000000;
     font-size: 12px;
     margin-top: 15px;
     padding: 10px 25px;
     border-radius: 10px;
     border: none;
-}
-
-footer {
-    color: var(--fonte-escura);
-    margin-top: 10px;
 }
