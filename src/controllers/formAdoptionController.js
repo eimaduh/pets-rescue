@@ -7,19 +7,20 @@ const formAdoptionController = {
 
     create: (req, res) => {
       const {
-          name, 
-          birthday, 
-          residence, 
-          availability, 
-          motivation
+          nome, 
+          sobrenome,
+          idade, 
+          tempoDisponivel,
+          telefone
+
        } = req.body;
      
-       database.DadoUser.create({
-          name, 
-          birthday, 
-          residence, 
-          availability, 
-          motivation
+       database.UserDado.create({
+        nome, 
+        sobrenome,
+        idade, 
+        tempoDisponivel,
+        telefone
        })
 
        return res.redirect('/formulario/analise');
